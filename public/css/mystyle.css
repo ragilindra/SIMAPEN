@@ -1,0 +1,28 @@
+.abu {
+  background-color: #36474f;
+}
+
+.flex-column {
+  height: 250px;
+}
+
+.nav-item:hover {
+  background-color: rgba(172, 170, 170, 0.849);
+}
+
+.nav-item .active {
+  background-color: rgba(248, 248, 248, 0.795);
+}
+
+#content {
+  margin-left: 224px;
+}
+
+.sidebar {
+  margin-top: 57px;
+}
+
+.bar {
+  width: 200px;
+  height: 10px;
+}
