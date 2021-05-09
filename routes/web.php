@@ -16,3 +16,8 @@ use App\Http\Controllers\PageController;
 
 
 Route::get('/', [PageController::class, 'index']);
+Route::get('/alat', [PageController::class, 'show_alat']);
+Route::get('/bahan', [PageController::class, 'show_bahan']);
+Route::get('/menu', [PageController::class, 'show_menu']);
+Route::get('/penjualan', [PageController::class, 'show_penjualan']);
+Route::get('/barista', [PageController::class, 'show_barista']);
