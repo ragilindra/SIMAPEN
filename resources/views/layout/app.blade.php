@@ -20,7 +20,7 @@
   <body class="sb-nav-fixed">
     <!-- NAVBAR -->
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-      <a class="navbar-brand mb-0 h1" href="index.html">SIMAPEN</a>
+      <a class="navbar-brand mb-0 h1" href="/">SIMAPEN</a>
       <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
@@ -53,7 +53,7 @@
                 </div>
               </div>
               <div class="sb-sidenav-menu-heading">Menu Navigasi</div>
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="/">
                 <div class="sb-nav-link-icon ml-3"><i class="fas fa-home"></i></div>
                 Dashboard
               </a>
@@ -64,19 +64,19 @@
               </a>
               <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                 <nav class="sb-sidenav-menu-nested nav">
-                  <a class="nav-link" href="alat.html">Alat</a>
-                  <a class="nav-link" href="bahan.html">Bahan</a>
+                  <a class="nav-link" href="/alat">Alat</a>
+                  <a class="nav-link" href="/bahan">Bahan</a>
                 </nav>
               </div>
-              <a class="nav-link" href="menu.html">
+              <a class="nav-link" href="/menu">
                 <div class="sb-nav-link-icon ml-3"><i class="fas fa-cocktail"></i></div>
                 Menu
               </a>
-              <a class="nav-link" href="penjualan.html">
+              <a class="nav-link" href="/penjualan">
                 <div class="sb-nav-link-icon ml-3"><i class="fas fa-calculator"></i></div>
                 Penjualan
               </a>
-              <a class="nav-link" href="barista.html">
+              <a class="nav-link" href="/barista">
                 <div class="sb-nav-link-icon ml-3"><i class="fas fa-user"></i></div>
                 Barista
               </a>
@@ -91,6 +91,7 @@
       </div>
       <!-- END SIDEBAR -->
       <!-- MAINBAR -->
+      <div id="layoutSidenav_content">
       @yield('content')
       <!-- END MAINBAR -->
         <footer class="py-4 bg-light mt-auto">

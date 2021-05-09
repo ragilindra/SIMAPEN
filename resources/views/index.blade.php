@@ -3,7 +3,6 @@
 @section('title', 'Dashboard')
 
 @section('content')
-<div id="layoutSidenav_content">
     <main>
         <div class="container-fluid">
         <!-- Judul mainbar -->
@@ -25,8 +24,8 @@
                         <h5 class="card-title">Inventaris</h5>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="alat.html">Alat</a>
-                        <a class="dropdown-item" href="bahan.html">Bahan</a>
+                        <a class="dropdown-item" href="/alat">Alat</a>
+                        <a class="dropdown-item" href="/bahan">Bahan</a>
                         </div>
                     </div>
                     </div>
@@ -45,7 +44,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body text-center">
-                    <a class="text-dark text-decoration-none" href="menu.html">
+                    <a class="text-dark text-decoration-none" href="/menu">
                         <h5 class="card-title">Menu</h5>
                     </a>
                     </div>
@@ -64,7 +63,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body text-center">
-                    <a class="text-dark text-decoration-none" href="menu.html">
+                    <a class="text-dark text-decoration-none" href="/penjualan">
                         <h5 class="card-title">Penjualan</h5>
                     </a>
                     </div>
@@ -83,7 +82,7 @@
                 </div>
                 <div class="col-md-8">
                     <div class="card-body text-center">
-                    <a class="text-dark text-decoration-none" href="menu.html">
+                    <a class="text-dark text-decoration-none" href="/barista">
                         <h5 class="card-title">Barista</h5>
                     </a>
                     </div>
